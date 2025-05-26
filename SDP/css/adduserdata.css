@@ -1,0 +1,96 @@
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=password],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+/* Style the container */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+body,
+html {
+    margin: 1;
+    font-family: sans-serif;
+}
+
+.container1 {
+    display: flex;
+    gap: 0.625%;
+}
+
+a {
+    text-decoration: none;
+    outline: black;
+    text-align: center;
+    line-height: 2;
+    color: black;
+    text-underline-position: below;
+    text-decoration: underline;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+a:link,
+a:visited,
+a:focus {
+    background: #f0a04b;
+    color: black;
+}
+
+a:hover {
+    background: #e1eedd;
+    text-underline-position: below;
+}
+
+a:active {
+    background: darkred;
+    color: white;
+}

@@ -1,0 +1,15 @@
+html,
+.form_error_message {
+  font-size: 14px;
+  color: red;
+}
+
+.form_text_link {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+.image {
+  height: 25rem;
+}
+
